@@ -20,8 +20,13 @@
 - [ ] 包管理工具(pip): p26
 
 > click==6.7 (http://click.pocoo.org/5/)
+
 > Flask==0.12.2
+
 > itsdangerous==0.24 (https://pythonhosted.org/itsdangerous/)
+
 > Jinja2==2.10
+
 > MarkupSafe==1.0 (https://github.com/pallets/markupsafe)
+
 > Werkzeug==0.14.1
