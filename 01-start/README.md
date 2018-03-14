@@ -2,13 +2,13 @@
 
 ## Flask: Web Framework, Micro
 
-- [ ] Django vs Tornado vs Flask vs ...
+- [ ] [Django](https://www.djangoproject.com/) vs [Tornado](http://www.tornadoweb.org/en/stable/) vs [Flask](http://flask.pocoo.org/docs/0.12/) vs ...
 - [ ] Micro, 插件机制
 - [ ] [flask 源码](https://github.com/pallets/flask)
 
 ## 项目驱动
 
-- 多人博客系统
+- 多人博客系统, Flasky
 
 ## 预备安装
 
