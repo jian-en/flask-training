@@ -10,6 +10,7 @@ def index():
 
 @app.route('/user/<username>')
 def user(username):
+    username = username + 1
     return '<h1>Hello World, %s</h1>' % username
 
 
