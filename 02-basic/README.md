@@ -15,7 +15,7 @@
 
 ### 请求：request -> request.py
 - 获取request中的headers信息, 参数信息
-- app context (current_app, g), request context(request, session)
+- app context (current_app, g), request context(request, session), [理解context](http://kronosapiens.github.io/blog/2014/08/14/understanding-contexts-in-flask.html)
 - 路由: url_map
 
 ### 响应: response -> response.py
