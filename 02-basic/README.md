@@ -14,9 +14,14 @@
 ![request-response](images/request-response.jpg)
 
 ### 请求：request -> request.py
-- app context, request context
+- 获取request中的headers信息, 参数信息
+- app context (current_app, g), request context(request, session)
+- 路由: url_map
 
 ### 响应: response -> response.py
+- response code: 1xx, 2xx, 3xx, 4xx, 5xx
+- make_response
+- abort, redirect
 
 ### [插件化](http://flask.pocoo.org/extensions/)：
 - [flask script](https://flask-script.readthedocs.io/en/latest/) 在flask 0.11后已经加入了自己的[command line interface](http://flask.pocoo.org/docs/0.12/cli/)

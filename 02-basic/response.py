@@ -12,13 +12,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    request.headers.get('User-Agent')
     """
     dice = random.randint(0, 10)
     if dice < 5:
         abort(404)
     """
-    return redirect("http://www.baidu.com")
+    # return redirect("http://www.baidu.com")
+    return 'hello'
 
 
 if __name__ == '__main__':
