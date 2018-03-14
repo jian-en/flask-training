@@ -1,11 +1,12 @@
+![flask logo](flask-logo.png)
 # Flask 速成课程
 [Flask 起源](http://mitsuhiko.pocoo.org/flask-pycon-2011.pdf)
 
 ## 预备知识
 
 - [ ] Python 基础知识: packages, functions, decorators, and object-oriented programming
-- [ ] 会使用命令行: cd, mv, cp, source
-- [ ] How a website works: HTML, CSS, JS
+- [ ] 会使用命令行: cd, mv, cp, source, wc, history, [Unix Reference](https://web.stanford.edu/class/cs107/unixref/)
+- [ ] 访问google的时候发生了什么? (HTML, CSS, JS)
 - [ ] Git 基本操作: clone, add, commit, push, pull
 
 ## 参考资料
