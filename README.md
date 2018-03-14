@@ -1,4 +1,5 @@
 # Flask 速成课程
+[Flask 起源](http://mitsuhiko.pocoo.org/flask-pycon-2011.pdf)
 
 ## 预备知识
 
