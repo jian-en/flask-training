@@ -1,0 +1,28 @@
+<html>
+    <head><title>实验场</title></head>
+    <body>
+        <p>A value from a dictionary: {{ mydict['key'] }}.</p>
+        <p>A value from a list: {{ mylist[3] }}.</p>
+        <p>A value from a list, with a variable index: {{ mylist[myintvar] }}.</p>
+        <p>A value from an object's method: {{ myobj.somemethod() }}.</p>
+        <hr>
+        {% if user %}
+            Hello, {{ user }}!
+        {% else %}
+            Hello, Stranger!
+        {% endif %}
+        <hr>
+        <ol>
+        {% for comment, content in comments.items() %}
+            <li>{{ comment }}, {{ content }}</li>
+        {% endfor %}
+        </ol>
+        <hr>
+        {% import 'macros.j2' as macros %}
+        <ul>
+        {% for comment in comments %}
+            {{ macros.render_comment(comment) }}
+        {% endfor %}
+        </ul>
+    </body>
+</html>
