@@ -13,7 +13,7 @@
 - 模版继承，复用: include, block, extends, super
 
 ## 任务：自己用flask + jinja2 写一自我介绍页面
-!(简历信息)[profile.png]
+![简历信息](profile.png)
 
 ## Bootstrap 简介
 - Dig Deeper: [Udacity 前端课程](https://cn.udacity.com/fend)
