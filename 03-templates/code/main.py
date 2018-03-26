@@ -19,8 +19,9 @@ context = {'mydict': {'key': 'template'},
            'mylist': [1, 2, 3, 4, 5],
            'myintvar': 2,
            'myobj': Foo(8),
-           'user': 'fujian',
-           'comments': {'a': 'b', 'c': 'd'}}
+           # 'user': 'fujian',
+           'comments': {'a': 'b', 'c': 'd'}
+           }
 
 result = render('./main.j2', context)
 
