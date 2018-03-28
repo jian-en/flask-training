@@ -5,13 +5,14 @@ app = Flask(__name__)
 
 # intro
 
-@app.route('/', methods=['POST'])
+@app.route('/', methods=['GET', 'POST'])
 def index():
-    print(request.form)
+    # print(request.form)
+    # print(request.files)
     # print(request.args)
     # print(request.values)
     # print(request.data)
-    # print(request.get_json())
+    print(request.get_json())
     return 'hello'
 
 
@@ -19,13 +20,12 @@ def index():
 
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired, Email
+from wtforms.validators import DataRequired
 
-app.config['SECRET_KEY'] = 'a random string'
+app.config['SECRET_KEY'] = 'fdsa9fdusa89das'
 
 class MyForm(FlaskForm):
-    name = StringField('name', validators=[DataRequired(),
-                                           Email()])
+    name = StringField('ame', validators=[DataRequired()])
     submit = SubmitField('提交')
 
 
