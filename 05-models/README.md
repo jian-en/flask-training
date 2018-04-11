@@ -67,3 +67,9 @@
 ## 如果数据库结构改变怎么办？ -> 5d
 
 - Migration
+
+## Dig Deeper
+
+1. [Database Systems Berkeley](http://www.cs186berkeley.net/)
+2. [Database Systems CMU](http://15445.courses.cs.cmu.edu/fall2017/schedule.html)
+3. [How a database works](http://coding-geek.com/how-databases-work/)
